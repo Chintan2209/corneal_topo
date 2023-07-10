@@ -1,0 +1,1 @@
+python .\topographer\main.py --n_mires 22 --working_distance 75.0 --camera_params "4.8 6.4 4.755" --model_file .\topographer\data\ring_distribution.txt --base_dir .\topographer\data\sample_images --image_name kc_eye_1.jpg

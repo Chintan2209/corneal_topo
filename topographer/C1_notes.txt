@@ -1,0 +1,32 @@
+# Steps
+image enhabce from preprocess.py
+# 1. image enhance
+# 2. invert image
+# 3. edge compute using autocanny
+# 4. image masking i.e ultra high contrast
+# 5. remove inner circles using cv2.circles and masked image
+
+Draw mires from utils.py
+1. 
+2. 
+
+
+Find mires from mire_detection.py
+Uses angle filling method
+1. Median filtering
+2. Get tuple of ? values for curves segments
+3. Fill curves
+4. clean_points will get locations of mires?
+5. Generate new image with filled mires?
+6. def cleanup_plots_heuristics: Trying to ensure that the plots.png has smooth values: 
+    # (a) no value of zero, 
+    # (b) no higher mire touching a lower mire, 
+    # (c) no random peaks in one mire
+7. 
+
+
+
+
+# Threshold image
+# autocanny
+# iris segmenter from preprocess.py
